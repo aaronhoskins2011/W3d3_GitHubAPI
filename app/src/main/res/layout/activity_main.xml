@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context="com.example.aaron.w3d3_githubapi.MainActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvLogin"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvId"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvLocation"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvNumOfRepos"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvUrl"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCreated"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvUpdated"
+        android:textColor="@color/colorLimeGreen"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGetRepoInformation"
+        android:text="Get Repo Information"
+        android:onClick="getRepoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@layout/oval_button"
+        />
+
+
+</LinearLayout>
